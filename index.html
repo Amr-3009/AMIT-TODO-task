@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>TO-DO Task</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <div class="todo-container">
+      <h1 class="todo-container_heading">To-Do List</h1>
+      <div class="todo-container_control">
+        <div class="todo-container_add-item">
+          <input
+            type="text"
+            class="todo-container_add-item_input"
+            placeholder="Add a new task"
+          />
+          <button class="todo-container_add-item_button">Add</button>
+        </div>
+        <div class="todo-container_search">
+          <input
+            type="text"
+            class="todo-container_search_input"
+            placeholder="Search for a task"
+          />
+          <button class="todo-container_search_button">Search</button>
+          <button class="todo-container_search_button" id="search-clear">
+            Clear Results
+          </button>
+        </div>
+        <div class="todo-container_options">
+          <button
+            class="todo-container_options_button"
+            id="clear_local_storage"
+          >
+            Clear and refresh
+          </button>
+          <button
+            class="todo-container_options_button--hidden-by-default"
+          ></button>
+        </div>
+      </div>
+      <div class="todo-container_display-item">
+        <ul class="todo-container_display-item_list"></ul>
+      </div>
+    </div>
+  </body>
+</html>

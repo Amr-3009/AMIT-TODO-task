@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #babdbf;
+  color: #333;
+  line-height: 1.6;
+  font-size: 16px;
+  padding-top: 5rem;
+}
+
+.todo-container {
+  width: 85%;
+  background-color: #bf754b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 16px auto;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 5px 4px 10px 0 #333;
+}
+
+.todo-container_control {
+  width: 85%;
+  padding: 16px;
+  background-color: #732b1a;
+  border-radius: 10px;
+  box-shadow: 5px 4px 10px 0 #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.todo-container_add-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+}
+
+.todo-container_search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+}
+
+.todo-container_display-item_list_item {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background-color: #732b1a;
+  border-radius: 10px;
+  box-shadow: 5px 4px 10px 0 #333;
+  margin: 16px auto;
+  width: 100%;
+}
+
+.todo-container_display-item {
+  width: 85%;
+  padding: 16px;
+  margin: 8px 0;
+  border-radius: 10px;
+  color: white;
+}
+
+.todo-container_add-item_input {
+  width: 85%;
+  padding: 16px;
+  margin: 8px 0;
+  border-radius: 10px;
+  border: none;
+}
+
+.todo-container_search_input {
+  width: 70%;
+  padding: 16px;
+  margin: 8px 0;
+  border-radius: 10px;
+  border: none;
+}
+
+.todo-container_heading {
+  color: #3f7373;
+  font-size: 2rem;
+  margin-bottom: 16px;
+  text-shadow: 2px 2px #333;
+}
+
+.todo-container_add-item_button {
+  padding: 16px;
+  border-radius: 10px;
+  border: none;
+  background-color: #3f7373;
+  color: white;
+  cursor: pointer;
+  width: 14%;
+  max-height: 47px;
+}
+
+.todo-container_search_button {
+  padding: 16px;
+  border-radius: 10px;
+  border: none;
+  background-color: #3f7373;
+  color: white;
+  cursor: pointer;
+  width: 14%;
+  max-height: 47px;
+}
+
+.todo-container_options_button {
+  padding: 16px;
+  border-radius: 10px;
+  border: none;
+  background-color: #3f7373;
+  color: white;
+  cursor: pointer;
+}
+
+.todo-container_options_button:hover {
+  background-color: #3f7373;
+  color: black;
+  transform: scale(1.1);
+}
+
+.todo-container_options_button--hidden-by-default {
+  padding: 16px;
+  border-radius: 10px;
+  border: none;
+  background-color: #3f7373;
+  color: white;
+}
+
+.todo-container_add-item_button:hover {
+  background-color: #3f7373;
+  color: black;
+  transform: scale(1.1);
+}
+
+.todo-container_search_button:hover {
+  background-color: #3f7373;
+  color: black;
+  transform: scale(1.1);
+}
+
+.todo-container_display-item_list_remove_button {
+  padding: 8px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  background-color: #3f7373;
+}
+
+.todo-container_display-item_list_edit_button {
+  padding: 8px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  background-color: #3f7373;
+}
+
+.todo-container_display-item_list_remove_button:hover {
+  color: #babdbf;
+  transform: scale(1.1);
+}
+
+.todo-container_display-item_list_edit_button:hover {
+  color: #babdbf;
+  transform: scale(1.1);
+}
+
+.todo-container_display-item_list_item_checkbox {
+  transform: scale(1.5);
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.todo-container_options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
